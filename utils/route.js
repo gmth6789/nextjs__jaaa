@@ -39,13 +39,13 @@ export async function getDataFromUrl(context) {
  * @example
  * ```js
  * const url = getUrl("create", "namecard-horizontal", { data: formData });
- * // "https://share-partime.com/create/namecard-horizontal?code=..."
+ * // "https://line-namecard.netlify.app/create/namecard-horizontal?code=..."
  * const url = getUrl("share", "namecard-horizontal", { code });
- * // "https://share-partime.com/share?template=namecard-horizontal&code=..."
+ * // "https://line-namecard.netlify.app/share?template=namecard-horizontal&code=..."
  * liff.login({ 
  *     redirectUri: getUrl("send", "namecard-horizontal", { code }, domain=process.env.DOMAIN_URL)
  *  });
- * // "https://share-partime.com/share/namecard-horizontal?code=...&send=1"
+ * // "https://line-namecard.netlify.app/share/namecard-horizontal?code=...&send=1"
  * ```
  */
 export function getUrl(mode, template, { data, code }, domain=process.env.LIFF_URL) {
