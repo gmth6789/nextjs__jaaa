@@ -1,0 +1,22 @@
+{
+    "company": "Ufabetcompany",
+    "companyEN": "Smart Tech Company",
+    "logo": "/images/background/sample-logo.png",
+    "name": "...",
+    "nameEN": "Nongmook",
+    "jobTitle": "ShareWeb",
+    "jobTitleEN": "Manager",
+    "email": "ming@gmail.com",
+    "phone": "0912345678",
+    "address": "bangkok",
+    "addressEN": "No.7",
+    "website": "https://share-partime.com/",
+    "taxId": "12345678",
+    "textColor": "#2B3D7B",
+    "leftFlex": "1",
+    "rightFlex": "2",
+    "topFlex": "1",
+    "middleFlex": "1",
+    "bottomFlex": "1",
+    "backgroundUrl": "/images/background/horizontal/background-9.png"
+}
